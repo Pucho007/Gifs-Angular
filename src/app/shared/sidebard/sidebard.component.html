@@ -1,0 +1,9 @@
+<h3>HISTORIAL</h3>
+<div class="historial">
+  <a *ngFor="let busqueda of historial"
+    (click)="buscar(busqueda)"
+    href="#">
+    {{busqueda | titlecase}}
+    <br>
+  </a>
+</div>

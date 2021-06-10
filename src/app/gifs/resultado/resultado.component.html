@@ -1,0 +1,11 @@
+<div class="cartilla animate__animated animate__fadeIn" *ngFor="let gif of gifs">
+   
+    <img 
+        class="cartilla-img"
+        [src]="gif.images.downsized_medium.url" 
+        [alt]="gif.title"
+    >
+    <div class="cartilla-body">
+        <span>TITULO: {{gif.title}}</span>
+    </div>
+</div>

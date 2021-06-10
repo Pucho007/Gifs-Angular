@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+.contenedor{
+    margin: 10px 10px;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.columna-1{
+    padding: 10px 10px;
+}
+
+.columna-2{
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: #29528F;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.columna-2 h3{
+    color: white;
+}
+
+.columna-2 a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.buscar input[type=text]{
+    width: 80%;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 50px;
+}
+
+.gifs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+}
+
+.cartilla{
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: black 3px 3px;
+    margin: 20px;
+}
+
+.cartilla img{
+    border-radius: 20px;
+    width: 90%;
+    height: 80%;
+    background-size: cover;
+    padding:10px
+}
